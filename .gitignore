@@ -1,0 +1,12 @@
+CMakeLists.txt.user
+asm
+asm.dSYM/
+cpu
+cpu.dSYM/
+foo
+output
+prog2
+prog3
+prog4
+program.bin
+qtcreator-build/
