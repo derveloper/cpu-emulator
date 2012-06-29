@@ -10,3 +10,7 @@ prog3
 prog4
 program.bin
 qtcreator-build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
