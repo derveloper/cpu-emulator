@@ -1,5 +1,5 @@
-set(CMAKE_C_COMPILER clang)
-set(CMAKE_CXX_COMPILER clang++)
+set(CMAKE_C_COMPILER /usr/local/bin/clang)
+set(CMAKE_CXX_COMPILER /usr/local/bin/clang++)
 
 project(cpu)
 cmake_minimum_required(VERSION 2.8)
@@ -23,5 +23,5 @@ target_link_libraries(
     ${Boost_REGEX_LIBRARY}
 )
 
-ADD_DEFINITIONS("-O3")
-ADD_DEFINITIONS("-std=c++0x")
+ADD_DEFINITIONS("-ggdb")
+ADD_DEFINITIONS("-std=c++11")
